@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Novidades e Promoções da Motiva Papel</title>
+    <meta charset="UTF=8" />
+    <meta name="description" content="Texto descritivo da página" />
+    <meta name="author" content="Janaina Silva" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="form.js"></script>
+    <link rel="sortcut icon" href="./assets/img/favicon_created_by_logaster.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="topo">
+
+        <header>
+            
+            <nav>
+                <div class="logo"> 
+                    <h3>Motiva Papel</h3>
+                    <h6>papelaria</h6>
+                </div>
+
+                <div class="options"> 
+                    <ul class="option">
+                        <a href="#produtos-link">
+                            <li>Produtos</li>
+                        </a>
+                        <a href="#cadastro-link">
+                            <li>Cadastro</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+    </div>
+
+    <main class="containerb">
+        <div class="products" id="produtos-link">
+
+            <h2>CONHEÇA NOSSOS PRODUTOS</h2>
+            
+            <section class="produtos" id="products">
+                    <div class="products-container1">
+                        <img src="./assets/img/cadernos.jpg" alt="cadernos" width="200" height="auto"></img>
+                        <h4>Cadernos</h4>
+                        <span>Cadernos Espiral</span>
+                        <h6>20,00</h6>
+
+                        <button type="button" onclick="armazenaProduto('Cadernos', 'Cadernos Espiral', '20.00', 1)">Adicionar ao Carrinho</button>
+                    </div>
+
+                    <div class="products-container2" id="canetas">
+                        <img src="./assets/img/canetas.jpg" alt="canetas" width="200" height="auto"></img>
+                        <h4>Canetas em Gel</h4>
+                        <span>Canetas (cores básicas)</span>
+                        <h6>2,00</h6>
+
+                        <button type="button" onclick="armazenaProduto('Caneta', 'Canetas (cores básicas)', '2.00', 2)">Adicionar ao Carrinho</button>
+                    </div>
+
+                    <div class="products-container3" id="mochilas">
+                        <img src="./assets/img/mochilas.jpg" alt="mochilas" width="200" height="auto"></img>
+                        <h4>Mochilas Bagaggio</h4>
+                        <span>Mochila Bagaggio Lilás</span>
+                        <h6>30,00</h6>
+
+                        <button type="button" onclick="armazenaProduto('Mochilas Bagaggio', 'Mochila Bagaggio Lilás', '30.00', 3)">Adicionar ao Carrinho</button>
+                    </div>
+
+
+                    <div class="products-container4" id="lapiseira">
+                        <img src="./assets/img/lapiseira.jpg" alt="lapiseira" width="200" height="auto"></img>
+                        <h4>Lapiseira CIS</h4>
+                        <span>Lapiseiras Cis Roxa</span>
+                        <h6>4,00</h6>
+
+                        <button type="button" onclick="armazenaProduto('Lapiseira', 'Lapiseiras Cis', '4.00', 4)">Adicionar ao Carrinho</button>
+                    </div>
+            </section>
+    
+        </div>
+
+        <div class="container" id="cadastro-link">
+
+            <div class= "linha">
+                
+                <div class="coluna coluna-direita">
+                    <h4> faça seu cadastro para uma melhor experiência em nosso site</h4>
+                    <div class="form">
+                        <div class ="form1">
+                            <label for="campo1">Nome</label>
+                            <input type="text" name="nome" id="campo1"/>
+                        </div>
+
+                        <div class="form2">  
+                            <label for="campo2">Email</label>
+                            <input type="text" name="email" id="campo2"/>
+                        </div>
+
+                        <button type="button" onclick="armazenaDados()">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+<footer>
+    <div class="container" id="contato-link">
+            <div class="informations">
+            <p>Site Desenvolvido para o Hiring Corders | Aluna: Janaina Santos da Silva</p>
+
+            <div class="info-janaina">
+                <a href="https://github.com/JanainaSant">
+                    <img src="./assets/img/github.png" alt="Link para perfil GitHub" title="perfil GitHub"/>
+                </a>
+                <a href="https://www.linkedin.com/in/janaina-silva-995348185/">
+                    <img src="./assets/img/linkedin.png" alt="Link para perfil linkedin" title="perfil linkedin"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
