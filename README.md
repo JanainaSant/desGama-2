@@ -1,0 +1,1 @@
+Site criado para o Segundo Desafio do Hiring Corders, onde precisamos criar um sistema de gestão de cadastros de produtos e clientes, salvando-os no LocalStorage. Para este trabalho adaptei meu projeto do primeiro desafio, utilizando novamente o HTML, CSS e JavaScript para o armazenamento de dados.
